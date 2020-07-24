@@ -13,7 +13,7 @@
     "frontend": "npm run start --prefix client",
     "dev": "npm run backend & (cd client && npm run start)",
     "dev-raf": "concurently \"npm run backend\" \"npm run frontend\"",
-    "test": "echo \"Error: no test specified\" && exit 1" 
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Rafal Stepkowski",
   "license": "ISC",
