@@ -2,7 +2,7 @@
 const dialogflow = require('dialogflow');
 const config = require('../config/keys');
 const structjson = require('./utils.js')
-
+// 
 
 const projectID = config.googleProjectID
 const sessionID = config.dialogFlowSessionID
