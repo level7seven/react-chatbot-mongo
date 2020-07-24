@@ -1,10 +1,11 @@
 "use strict"
 const dialogflow = require('dialogflow');
 const config = require('../config/keys');
-const structjson = require('./utils')
+const structjson = require('./utils.js')
 
 
 const projectID = config.googleProjectID
+const sessionID = config.dialogFlowSessionID
 const credentials = {
     client_email: config.googleClientEmail,
     private_key: config.googlePrivateKey
@@ -55,5 +56,5 @@ module.exports = {
     },
     handleAction: function(responses) {
         return responses
-    }
+    },
 }
